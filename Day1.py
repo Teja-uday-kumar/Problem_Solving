@@ -18,7 +18,7 @@ while num!=0:
 print(reversed)
 
 
-#write a program to print miutiply of the given number
+#write a program to print multiply of the given number
 num=444
 mul=1
 while num!=0:
@@ -29,7 +29,7 @@ print(mul)
 
 
 # write a program to print given number is palindrome or not
-num=1441
+num=121
 rev=0
 given_num=num
 while num!=0:
@@ -37,7 +37,7 @@ while num!=0:
     rev=(rev*10)+last_digit
     num=num//10
 
-if num==given_num:
+if rev==given_num:
     print('it is palindrome')
 else :
  print('it is not palindrome')
